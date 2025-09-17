@@ -15,6 +15,20 @@ public class Tim7_Minuman {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("===================================");
+        System.out.println("           DAFTAR MINUMAN          ");
+        System.out.println("===================================");
+        
+        Chocolate C = new Chocolate();
+        C.setnama("Chocolate Hazelnut");
+        System.out.println("Nama : " + C.getnama());
+        C.setharga("18.000");
+        System.out.println("Harga : Rp. " + C.getharga());
+        C.setjenis("Dingin");
+        System.out.println("Jenis : " + C.getjenis());
+        C.setukuran("Medium");
+        System.out.println("Ukuran : " + C.getukuran());
+        System.out.println("===================================");
     }
     
 }
