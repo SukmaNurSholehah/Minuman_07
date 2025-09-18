@@ -14,24 +14,26 @@ public class Taro {
     public void setNama(String Namax){
         this.Nama = Namax;
     }
-    public void setHarga(String Hargax){
-        this.Harga = Hargax;
-    }
-    public void setJenis(String Jenisx){
-        this.Jenis = Jenisx;
-    }
-    public void setUkuran(String Ukuranx){
-        this.Ukuran = Ukuranx;
-    }
-    
     public String getNama(){
         return this.Nama;
+    }
+    
+    public void setHarga(String Hargax){
+        this.Harga = Hargax;
     }
     public String getHarga(){
         return  this.Harga;
     }
-    public String getJenis(){
+    
+    public void setJenis(String Jenisx){
+        this.Jenis = Jenisx;
+    }
+     public String getJenis(){
         return this.Jenis;
+    }
+     
+    public void setUkuran(String Ukuranx){
+        this.Ukuran = Ukuranx;
     }
     public String getUkuran(){
         return this.Ukuran;
