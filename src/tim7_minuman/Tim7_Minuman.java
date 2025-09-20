@@ -24,11 +24,67 @@ public class Tim7_Minuman {
         System.out.println("Nama : " + C.getnama());
         C.setharga("18.000");
         System.out.println("Harga : Rp. " + C.getharga());
-        C.setjenis("Dingin");
+        C.setjenis("Dingin / Panas");
         System.out.println("Jenis : " + C.getjenis());
         C.setukuran("Medium");
         System.out.println("Ukuran : " + C.getukuran());
         System.out.println("===================================");
+        
+        
+        C.setnama("Red Velvet");
+        System.out.println("Nama : " + C.getnama());
+        C.setharga("18.000");
+        System.out.println("Harga : Rp. " + C.getharga());
+        C.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + C.getjenis());
+        C.setukuran("Medium");
+        System.out.println("Ukuran : " + C.getukuran());
+        System.out.println("===================================");
+        
+        
+        C.setnama("Vanilla Latte");
+        System.out.println("Nama : " + C.getnama());
+        C.setharga("17.000");
+        System.out.println("Harga : Rp. " + C.getharga());
+        C.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + C.getjenis());
+        C.setukuran("Medium");
+        System.out.println("Ukuran : " + C.getukuran());
+        System.out.println("===================================");
+        
+       
+        C.setnama("Milk Tea");
+        System.out.println("Nama : " + C.getnama());
+        C.setharga("15.000");
+        System.out.println("Harga : Rp. " + C.getharga());
+        C.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + C.getjenis());
+        C.setukuran("Medium");
+        System.out.println("Ukuran : " + C.getukuran());
+        System.out.println("===================================");
+        
+        
+        C.setnama("Mocha");
+        System.out.println("Nama : " + C.getnama());
+        C.setharga("20.000");
+        System.out.println("Harga : Rp. " + C.getharga());
+        C.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + C.getjenis());
+        C.setukuran("Medium");
+        System.out.println("Ukuran : " + C.getukuran());
+        System.out.println("===================================");
+        
+        
+        C.setnama("Taro");
+        System.out.println("Nama : " + C.getnama());
+        C.setharga("16.000");
+        System.out.println("Harga : Rp. " + C.getharga());
+        C.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + C.getjenis());
+        C.setukuran("Medium");
+        System.out.println("Ukuran : " + C.getukuran());
+        System.out.println("===================================");
+        
     }
     
 }
