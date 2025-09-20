@@ -52,15 +52,16 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + V.getukuran());
         System.out.println("===================================");
         
-       
-        C.setnama("Milk Tea");
-        System.out.println("Nama : " + C.getnama());
-        C.setharga("15.000");
-        System.out.println("Harga : Rp. " + C.getharga());
-        C.setjenis("Dingin / Panas");
-        System.out.println("Jenis : " + C.getjenis());
-        C.setukuran("Medium");
-        System.out.println("Ukuran : " + C.getukuran());
+        
+        Milk_Tea m = new Milk_Tea();
+        m.setnama("Milk Tea");
+        System.out.println("Nama : " + m.getnama());
+        m.setharga("15.000");
+        System.out.println("Harga : Rp. " + m.getharga());
+        m.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + m.getjenis());
+        m.setukuran("Medium");
+        System.out.println("Ukuran : " + m.getukuran());
         System.out.println("===================================");
         
         Mocha M = new Mocha();
