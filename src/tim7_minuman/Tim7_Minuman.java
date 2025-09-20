@@ -30,15 +30,15 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + C.getukuran());
         System.out.println("===================================");
         
-        
-        C.setnama("Red Velvet");
-        System.out.println("Nama : " + C.getnama());
-        C.setharga("18.000");
-        System.out.println("Harga : Rp. " + C.getharga());
-        C.setjenis("Dingin / Panas");
-        System.out.println("Jenis : " + C.getjenis());
-        C.setukuran("Medium");
-        System.out.println("Ukuran : " + C.getukuran());
+        Red_Velvet R = new Red_Velvet();
+        R.setnama("Red Velvet");
+        System.out.println("Nama : " + R.getnama());
+        R.setharga("18.000");
+        System.out.println("Harga : Rp. " + R.getharga());
+        R.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + R.getjenis());
+        R.setukuran("Medium");
+        System.out.println("Ukuran : " + R.getukuran());
         System.out.println("==================================="); 
         
         Vanilla_Latte V = new Vanilla_Latte();
