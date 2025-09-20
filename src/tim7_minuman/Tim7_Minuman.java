@@ -63,15 +63,15 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + C.getukuran());
         System.out.println("===================================");
         
-        
-        C.setnama("Mocha");
-        System.out.println("Nama : " + C.getnama());
-        C.setharga("20.000");
-        System.out.println("Harga : Rp. " + C.getharga());
-        C.setjenis("Dingin / Panas");
-        System.out.println("Jenis : " + C.getjenis());
-        C.setukuran("Medium");
-        System.out.println("Ukuran : " + C.getukuran());
+        Mocha M = new Mocha();
+        M.setnama("Mocha");
+        System.out.println("Nama : " + M.getnama());
+        M.setharga("20.000");
+        System.out.println("Harga : Rp. " + M.getharga());
+        M.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + M.getjenis());
+        M.setukuran("Medium");
+        System.out.println("Ukuran : " + M.getukuran());
         System.out.println("===================================");
         
         Taro T = new Taro();
