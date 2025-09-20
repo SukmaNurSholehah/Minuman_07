@@ -39,17 +39,17 @@ public class Tim7_Minuman {
         System.out.println("Jenis : " + C.getjenis());
         C.setukuran("Medium");
         System.out.println("Ukuran : " + C.getukuran());
-        System.out.println("===================================");
+        System.out.println("==================================="); 
         
-        
-        C.setnama("Vanilla Latte");
-        System.out.println("Nama : " + C.getnama());
-        C.setharga("17.000");
-        System.out.println("Harga : Rp. " + C.getharga());
-        C.setjenis("Dingin / Panas");
-        System.out.println("Jenis : " + C.getjenis());
-        C.setukuran("Medium");
-        System.out.println("Ukuran : " + C.getukuran());
+        Vanilla_Latte V = new Vanilla_Latte();
+        V.setnama("Vanilla Latte");
+        System.out.println("Nama : " + V.getnama());
+        V.setharga("17.000");
+        System.out.println("Harga : Rp. " + V.getharga());
+        V.setjenis("Dingin / Panas");
+        System.out.println("Jenis : " + V.getjenis());
+        V.setukuran("Medium");
+        System.out.println("Ukuran : " + V.getukuran());
         System.out.println("===================================");
         
        
