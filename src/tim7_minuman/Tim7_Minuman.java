@@ -52,7 +52,6 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + V.getukuran());
         System.out.println("===================================");
         
-        
         Milk_Tea m = new Milk_Tea();
         m.setnama("Milk Tea");
         System.out.println("Nama : " + m.getnama());
