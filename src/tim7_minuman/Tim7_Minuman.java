@@ -15,7 +15,7 @@ public class Tim7_Minuman {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("===================================");
+     /*   System.out.println("===================================");
         System.out.println("           DAFTAR MINUMAN          ");
         System.out.println("===================================");
         
@@ -84,7 +84,8 @@ public class Tim7_Minuman {
         T.setUkuran("Medium");
         System.out.println("Ukuran : " + T.getUkuran());
         System.out.println("===================================");
-        
+        */
+     
     }
     
 }
