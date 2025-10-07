@@ -85,9 +85,6 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + T.getUkuran());
         System.out.println("===================================");
         */
-     
-      SubClassMocha mocha = new SubClassMocha();
-      
-    }
+         }
     
 }
