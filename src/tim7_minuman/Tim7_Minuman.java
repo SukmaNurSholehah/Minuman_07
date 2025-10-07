@@ -85,7 +85,15 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + T.getUkuran());
         System.out.println("===================================");
         */
-     
+        System.out.println("====================================");
+        subclasslatte latte = new subclasslatte();
+        latte.setNama("vanillalatte");
+        latte.setJenis("ice");
+        latte.setUkuran("medium");
+        latte.setHarga("17.000");
+        
+        latte.tampilData();
+        
     }
     
 }

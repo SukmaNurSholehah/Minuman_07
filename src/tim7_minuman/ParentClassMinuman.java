@@ -42,5 +42,11 @@ public class ParentClassMinuman {
     public void setHarga(String harga) {
         this.harga = harga;
     }
+    public void tampilData(){
+        System.out.println("Nama : " +nama);
+        System.out.println("Jenis : " +jenis);
+        System.out.println("Ukuran : " +ukuran);
+        System.out.println("Harga : Rp " +harga);
+    }
     
 }

@@ -8,6 +8,10 @@ package tim7_minuman;
  *
  * @author This PC
  */
-public class subclasslatte  extends ParentClassMinuman{
+public class subclasslatte extends ParentClassMinuman{
+    @Override
+    public void tampilData(){
+    super.tampilData();
+    }
     
 }
