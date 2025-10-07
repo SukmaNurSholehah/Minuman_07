@@ -86,6 +86,15 @@ public class Tim7_Minuman {
         System.out.println("===================================");
         */
      
+        System.out.println("===================================");
+     SubClassTaro sbt = new SubClassTaro();
+     sbt.setNama("Taro");
+     sbt.setJenis("Dingin");
+     sbt.setUkuran("Medium");
+     sbt.setHarga("16.000");
+     
+     sbt.tampilData();
+     
     }
     
 }
