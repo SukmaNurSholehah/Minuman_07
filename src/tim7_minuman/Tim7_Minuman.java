@@ -18,14 +18,14 @@ public class Tim7_Minuman {
      
         
      System.out.println("===================================");
-     SubClassMocha mocha = new SubClassMocha();
-     mocha.setNama("Mocha");
-     mocha.setJenis("Dingin");
-     mocha.setUkuran("Medium");
-     mocha.setHarga("20.000");
+     SubClassRedVelvet sbr = new SubClassRedVelvet();
+     sbr.setNama("Red Velvet");
+     sbr.setJenis("Dingin");
+     sbr.setUkuran("Medium");
+     sbr.setHarga("15.000");
      
-     mocha.tampilData();
+     sbr.tampilData();
+   
+    }
 
     }
-    
-}
