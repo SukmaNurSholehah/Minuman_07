@@ -86,13 +86,13 @@ public class Tim7_Minuman {
         System.out.println("===================================");
         */
      System.out.println("===================================");
-     SubClassChocolate sbc = new SubClassChocolate();
-     sbc.setNama("Chocolate");
-     sbc.setJenis("Dingin");
-     sbc.setUkuran("Medium");
-     sbc.setHarga("18.000");
+     SubClassRedVelvet sbr = new SubClassRedVelvet();
+     sbr.setNama("Red Velvet");
+     sbr.setJenis("Dingin");
+     sbr.setUkuran("Medium");
+     sbr.setHarga("15.000");
      
-     sbc.tampilData();
+     sbr.tampilData();
 
      
     }
