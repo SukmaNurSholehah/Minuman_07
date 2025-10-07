@@ -85,7 +85,14 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + T.getUkuran());
         System.out.println("===================================");
         */
-     
+        System.out.println("=================================");
+     subclasstea ss = new subclasstea();
+         ss.setNama("mlik tea");
+         ss.setJenis("dingin/panas");
+         ss.setUkuran("medium");
+         ss.setHarga("15.000");
+        
+         ss.tampildata();
+     }
     }
-    
-}
+
