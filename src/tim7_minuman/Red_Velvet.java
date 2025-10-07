@@ -42,7 +42,7 @@ public class Red_Velvet {
     public void setUkuran(String ukuran) {
         this.ukuran = ukuran;
     }
-    
+   
   
     
 }

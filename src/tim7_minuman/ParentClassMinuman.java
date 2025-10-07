@@ -42,7 +42,10 @@ public class ParentClassMinuman {
     public void setHarga(String harga) {
         this.harga = harga;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/Class_Vanilla_Latte
     public void tampilData(){
         System.out.println("Nama : " +nama);
         System.out.println("Jenis : " +jenis);
