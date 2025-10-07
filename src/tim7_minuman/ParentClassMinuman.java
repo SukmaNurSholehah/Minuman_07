@@ -49,5 +49,6 @@ public class ParentClassMinuman {
         System.out.println("Ukuran : " +ukuran);
         System.out.println("Harga : Rp " +harga);
     }
+
     
 }
