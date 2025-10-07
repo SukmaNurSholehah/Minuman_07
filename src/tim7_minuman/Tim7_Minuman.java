@@ -85,6 +85,16 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + T.getUkuran());
         System.out.println("===================================");
         */
-         }
+        
+     System.out.println("===================================");
+     SubClassMocha mocha = new SubClassMocha();
+     mocha.setNama("Mocha");
+     mocha.setJenis("Dingin");
+     mocha.setUkuran("Medium");
+     mocha.setHarga("20.000");
+     
+     mocha.tampilData();
+
+    }
     
 }
