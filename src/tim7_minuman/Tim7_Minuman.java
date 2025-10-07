@@ -16,16 +16,15 @@ public class Tim7_Minuman {
     public static void main(String[] args) {
         // TODO code application logic here
      
-        
      System.out.println("===================================");
-     SubClassRedVelvet sbr = new SubClassRedVelvet();
-     sbr.setNama("Red Velvet");
-     sbr.setJenis("Dingin");
-     sbr.setUkuran("Medium");
-     sbr.setHarga("15.000");
+     SubClassTaro sbt = new SubClassTaro();
+     sbt.setNama("Taro");
+     sbt.setJenis("Dingin");
+     sbt.setUkuran("Medium");
+     sbt.setHarga("16.000");
      
-     sbr.tampilData();
-   
+     sbt.tampilData();
+     
     }
 
     }
