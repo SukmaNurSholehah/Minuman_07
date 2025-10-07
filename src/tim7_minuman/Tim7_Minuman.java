@@ -85,6 +85,15 @@ public class Tim7_Minuman {
         System.out.println("Ukuran : " + T.getUkuran());
         System.out.println("===================================");
         */
+     System.out.println("===================================");
+     SubClassChocolate sbc = new SubClassChocolate();
+     sbc.setNama("Chocolate");
+     sbc.setJenis("Dingin");
+     sbc.setUkuran("Medium");
+     sbc.setHarga("18.000");
+     
+     sbc.tampilData();
+
      
     }
     
