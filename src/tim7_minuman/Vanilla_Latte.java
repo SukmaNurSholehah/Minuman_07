@@ -8,34 +8,34 @@ package tim7_minuman;
  *
  * @author Sukma Nur
  */
-public class Mocha {
-    String nama, jenis, ukuran, harga;
+public class Vanilla_Latte {
+    String nama, harga, jenis, ukuran;
      
-    public void setnama(String Nama){
-        this.nama=Nama;
-    }
+    public void setnama(String nama){
+        this.nama = nama;    
+    } 
     public String getnama(){
         return this.nama;
     }
     
-    public void setjenis(String Jenis){
-        this.jenis=Jenis;
+    public void setharga(String harga ){
+        this.harga = harga;   
+    }
+    public String getharga(){
+        return this.harga;
+    }
+    
+    public void setjenis(String jenis){
+        this.jenis = jenis;   
     }
     public String getjenis(){
         return this.jenis;
     }
     
-    public void setukuran(String Ukuran){
-        this.ukuran=Ukuran;
+    public void setukuran(String ukuran){
+        this.ukuran = ukuran;   
     }
     public String getukuran(){
         return this.ukuran;
-    }
-      
-    public void setharga(String Harga){
-        this.harga=Harga;
-    }
-    public String getharga(){
-        return this.harga;
     }
 }
